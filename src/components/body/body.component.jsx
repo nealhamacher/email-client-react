@@ -3,7 +3,7 @@ import React from "react"
 import "./body.styles.css"
 
 const Body = ( { displayed }) => {
-    if(displayed === "0") {
+    if(displayed.id == null) {
         return (
             <h4>No email selected, select an email on left to display</h4>
         )

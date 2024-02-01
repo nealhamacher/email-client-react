@@ -37,7 +37,7 @@ function App() {
     console.log(email.read);
     email.read = 'true';
     setSelected(email);
-    setFilteredEmails([...filteredEmails]);
+    setFilteredEmails([...emails]);
   }
 
   const handleInput = e => {
