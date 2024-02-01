@@ -5,7 +5,7 @@ import "./body.styles.css"
 const Body = ( { displayed }) => {
     if(displayed.id == null) {
         return (
-            <h4>No email selected, select an email on left to display</h4>
+            <h2>No email selected, select an email on left to display</h2>
         )
     }
     else {
