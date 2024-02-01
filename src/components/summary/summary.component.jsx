@@ -7,7 +7,7 @@ const Summary = ( { email, selected, handleRead} ) => {
     return (
         <div className="summary">
             <div 
-            className={read==='true'?'read':'unread'}
+            className={selected.id===id? 'selected' : (read==='true'?'read':'unread')}
             onClick={()=>handleRead(id)}>
                 <b>From:</b> {from} <br />
                 <b>Address:</b> {address} <br />
