@@ -1,0 +1,7 @@
+.sidebar {
+    width: max-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh;
+    scrollbar-color: #ffffff;
+}
